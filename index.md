@@ -90,6 +90,14 @@ Outside of work, I enjoy reading (and tracking them!) and learning new things (H
   </div>
 </div>
 </td>
+  <td class="cell-content"><div class="container">
+  <a href="https://github.com/iris0512/akc-dog-breed-analysis"><img src="/assets/images/Python2.png" class="image"></a>
+  <div class="middle">
+    <div class="text-head">Which dog to adopt?</div>
+    <div class="text">Scraping data from the American Kennel Club website to build a data using Python</div>
+  </div>
+</div>
+</td>
 <td class="cell-content"><div class="container">
   <a href="https://public.tableau.com/views/TheArtoftheSteal/TheArtoftheSteal?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link"><img src="/assets/images/Tableau2.png" class="image"></a>
   <div class="middle">
@@ -98,14 +106,7 @@ Outside of work, I enjoy reading (and tracking them!) and learning new things (H
   </div>
 </div>
 </td>
-<td class="cell-content"><div class="container">
-  <a href="https://github.com/iris0512/akc-dog-breed-analysis"><img src="/assets/images/Python2.png" class="image"></a>
-  <div class="middle">
-    <div class="text-head">Which dog to adopt?</div>
-    <div class="text">Scraping data from the American Kennel Club website to build a data using Python</div>
-  </div>
-</div>
-</td>
+
 
 </tr>
 <tr>
