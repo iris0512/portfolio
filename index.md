@@ -36,14 +36,15 @@ I am a Tableau Desktop Certified Professional with extensive knowledge of data v
 <div class="about-child">
 <div class="about-heading">About Me</div>
 <div><img src="{{site.baseurl}}/assets/images/hobby1.png" class="about-image"></div>
+<div class="about-text">
 I am Siri, a data analyst passionate about making an impact through my work. I enjoy asking interesting questions about the data and finding insights that will help teams meet their objectives. I am currently volunteering with Work on Climate, a non-profit focused on building the workforce needed to solve the climate crisis - the most important and urgent problem humanity has faced. <br>
-Outside of work, I enjoy reading (and tracking them!) and learning new things (Hola! Como estas?). I find new art mediums to master, my current obsession being crochet, as well as different recipes to whip up in the kitchen. 
+Outside of work, I enjoy reading (and tracking them!) and learning new things (Hola! Como estas?). I find new art mediums to master, my current obsession being crochet, as well as different recipes to whip up in the kitchen. </div>
 </div>
 </div>
 
 
 <div id="portfolio">
-<h2 class="portfolio-head">Portfolio</h2>
+<div class="portfolio-head">Portfolio</div>
 <div class="table">
 <div class="table-row">
 <div class="container">

@@ -288,11 +288,11 @@ a:hover { text-decoration: underline; }
  
 
 .tools{
-  overflow-x:auto;
   height: auto;
   margin-left: auto;
   margin-right: auto;  
   padding-top: 6rem;
+  padding: 3rem;
 }
 
 .tool-table{
@@ -300,13 +300,24 @@ a:hover { text-decoration: underline; }
   table-layout: fixed;
 }
 
-.tool-td {
-  width: 25%;
+@media screen and (max-width>800px) {
+  .tool-td{
+    display: table-cell;
   height: auto;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .tool-td{
+    display: inline-block;
+    float: left;
+  }
 }
 
 .icon{
   width:30%;
+  min-width: 75px;
+  max-width: 150px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -336,30 +347,37 @@ a:hover { text-decoration: underline; }
 }
 
 .about-text{
-  font-size: 80%;
+  font-size: 115%;
   text-align: justify;
+  padding-top: 2.5rem;
 }
 
 .about-heading{
-  font-size: 110%;
+  font-size: 195%;
   font-weight: bold;
   text-align: center;
+  color: #004225;
   margin-bottom: 1rem;
 }
 
 .about-image{
-  display: block;
   width: 100%;
   height:auto;
   max-width:450px;
-  object-fit: cover;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
 }
 
+.about-image, .about-child{
+  float:left;
+  display:inline-block;
+  padding: 1rem;
+}
+
 #portfolio{
-  padding: 5rem;
+  padding: 4rem;
+  padding-top: 6rem;
 }
 
 .portfolio-head{
@@ -367,6 +385,7 @@ a:hover { text-decoration: underline; }
   font-size: 205%;
   font-weight: bold;
   text-align: center;
+  padding-top: 1.8rem;
 }
 
 .table{
@@ -423,8 +442,24 @@ a:hover { text-decoration: underline; }
 }
 
 
-.site-footer { border-top: solid 1px #eff0f1; text-align: center; 
-  margin-left: auto; font-size: 85%; background-color: #F5F5DC; padding-top: 2rem;}
+@media screen and (max-width: 800px){
+  .container{
+    float: left;
+    display: inline-block;
+  }
+
+}
+
+.site-footer { border-top: solid 1px #eff0f1; text-align: center; color: #004225;
+  margin-left: auto; font-size: 115%; background-color: #F5F5DC; padding-top:1%;}
+
+.contact-table{
+  display: table;
+}
+
+.contact-td{
+  display: table-cell;
+}
 
 .footer-icon{
   width:10%;
