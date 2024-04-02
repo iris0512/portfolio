@@ -251,14 +251,14 @@ td, th { padding: 0; }
 
 .highlight { background-color: #f8f8f8; }
 
-/** { box-sizing: border-box; }*/
+* { box-sizing: border-box; }
 
 body { margin:0px; font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; }
 
 /* #skip-to-content { height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px; }
 #skip-to-content:focus { position: fixed; top: 10px; left: 10px; height: auto; width: auto; background: #e19447; outline: thick solid #e19447; } */
 
-a.nav-link {color: white; padding: 1rem; font-size: 1.5em;}
+a.nav-link {color: #004225; padding: 1rem; font-size: 105%;}
 
 a { color: #1e6bb8; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -273,33 +273,26 @@ a:hover { text-decoration: underline; }
   .btn + .btn { margin-top: 1rem; margin-left: 0; } }
 
 
-.page-header { padding-top:1em; color: #fff; text-align: center; background-color:rgb(0, 66, 37); background-image: linear-gradient(120deg, #004225, #004225); }
+.page-header { padding-top:1em; color: #004225; text-align: center; background-color:#F5F5DC; background-image: linear-gradient(120deg, #F5F5DC, #F5F5DC); }
 @media screen and (min-width: 64em) { .page-header { padding: 5rem 2rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
 
-.project-name { font-size:5rem; font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top: 0; margin-bottom: 0.1rem; }
-@media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .project-name { font-size: 2.25rem; } }
-@media screen and (max-width: 42em) { .project-name { font-size: 1.75rem; } }
+.project-name { font-size:250%; font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top: 0; margin-bottom: 0.1rem; }
 
 
-.project-tagline { text-align:center; font-size:2.6rem; font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
-@media screen and (min-width: 64em) { .project-tagline { font-size: 1.25rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .project-tagline { font-size: 1.15rem; } }
-@media screen and (max-width: 42em) { .project-tagline { font-size: 1rem; } }
+.project-tagline { text-align:center; font-size:125%; font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
 
-.project-tagline1 { text-align:center; font-size:1.4rem; font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: normal; opacity: 0.7; }
-  @media screen and (min-width: 64em) { .project-tagline1 { font-size: 1.25rem; } }
-  @media screen and (min-width: 42em) and (max-width: 64em) { .project-tagline1 { font-size: 1.15rem; } }
-  @media screen and (max-width: 42em) { .project-tagline1 { font-size: 1rem; } }
+
+.project-tagline1 { text-align:center; font-size:115%; font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: normal; opacity: 0.7; }
+ 
 
 .tools{
-  width: 85%;
-  height:auto;
+  overflow-x:auto;
+  height: auto;
   margin-left: auto;
   margin-right: auto;  
-  padding-top: 4.5rem;
+  padding-top: 6rem;
 }
 
 .tool-table{
@@ -313,7 +306,7 @@ a:hover { text-decoration: underline; }
 }
 
 .icon{
-  width:45%;
+  width:30%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -321,60 +314,81 @@ a:hover { text-decoration: underline; }
 }
 
 .icon-head{
-  font-size: 1.8rem;
+  font-size: 125%;
   font-weight: bold;
   text-align: center;
   padding-top: 2rem;
-  color: #FFB000;
+  color: #004225;
 }
 
 .icon-text{
-  font-size: 1rem;
+  font-size: 105%;
   text-align: justify;
   padding: 1.5rem;
 }
 
 
-#about{
+.about-child{
+  background-color: #F5F5DC; 
   width:100%;
   height: auto;
-  background-color: #F5F5DC;
-}
-
-.about-table{
-  width: 100%;
-  height: auto;
-}
-
-.about-td{
-  padding: 1rem;
-}
-
-.image-about{
-  width: 90%;   
+  padding: 5rem;
 }
 
 .about-text{
-  width: 100%;
-  font-size:1.1rem;
+  font-size: 80%;
   text-align: justify;
 }
 
-#portfolio{
-  padding: 6rem;
-}
-.container{
-  position: relative;
+.about-heading{
+  font-size: 110%;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.image {
-  opacity: 1;
+.about-image{
   display: block;
   width: 100%;
+  height:auto;
+  max-width:450px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+#portfolio{
+  padding: 5rem;
+}
+
+.portfolio-head{
+  color: #004225;
+  font-size: 205%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table{
+  display: table;
+  width: 100%;
+  height: auto;
+}
+
+.table-row{
+  display: table-row;
+}
+.container{
+  display: table-cell;
+}
+.image {
+  opacity: 1;
+  display: inline-block;
+  width: 100%;
+  max-width: 700px;
   height: auto;
   transition: .5s ease;
-  backface-visibility: hidden;
-  padding: 2rem;
+  padding: 3%;
 }
 
 .middle {
@@ -384,7 +398,6 @@ a:hover { text-decoration: underline; }
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 .container:hover .image {
@@ -397,7 +410,7 @@ a:hover { text-decoration: underline; }
 
 .text-head {
   color: black;
-  font-size: 1.6rem;
+  font-size: 95%;
   font-weight: bold;
   text-align: center;
 }
@@ -405,29 +418,14 @@ a:hover { text-decoration: underline; }
 
 .text {
   color: black;
-  font-size: 1.2rem;
+  font-size: 80%;
   text-align: center;
 }
 
-.main-content { word-wrap: break-word; }
-.main-content :first-child { margin-top: 0; }
-@media screen and (min-width: 64em) { .main-content { padding: 0.5rem; margin: 0 auto; font-size: 1.1rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .main-content { font-size: 1.1rem; } }
-@media screen and (max-width: 42em) { .main-content { font-size: 1rem; } }
 
 .site-footer { border-top: solid 1px #eff0f1; text-align: center; 
-  margin-left: auto; font-size: 1.8rem; background-color: #F5F5DC; padding-top: 2rem;}
-
-.contact{
-  width: 100%;
-}
-
-.contact-table{
-  width: 100%;
-  padding-left: 51.5rem;
-}
+  margin-left: auto; font-size: 85%; background-color: #F5F5DC; padding-top: 2rem;}
 
 .footer-icon{
-  width:7.8rem;
-  padding: 2rem;
+  width:10%;
 }
