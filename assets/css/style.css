@@ -334,7 +334,7 @@ a:hover { text-decoration: underline; }
 
 .icon-text{
   font-size: 105%;
-  text-align: justify;
+  text-align: center;
   padding: 1.5rem;
 }
 
@@ -348,7 +348,6 @@ a:hover { text-decoration: underline; }
 
 .about-text{
   font-size: 115%;
-  text-align: justify;
   padding-top: 2.5rem;
 }
 
@@ -376,8 +375,7 @@ a:hover { text-decoration: underline; }
 }
 
 #portfolio{
-  padding: 4rem;
-  padding-top: 6rem;
+  padding: 6rem;
 }
 
 .portfolio-head{
@@ -385,7 +383,7 @@ a:hover { text-decoration: underline; }
   font-size: 205%;
   font-weight: bold;
   text-align: center;
-  padding-top: 1.8rem;
+  padding-top: 4rem;
 }
 
 .table{
@@ -442,7 +440,7 @@ a:hover { text-decoration: underline; }
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 780px){
   .container{
     float: left;
     display: inline-block;
@@ -451,7 +449,7 @@ a:hover { text-decoration: underline; }
 }
 
 .site-footer { border-top: solid 1px #eff0f1; text-align: center; color: #004225;
-  margin-left: auto; font-size: 115%; background-color: #F5F5DC; padding-top:1%;}
+  margin-left: auto; background-color: #F5F5DC; padding-top:1%; height: auto;}
 
 .contact-table{
   display: table;
@@ -462,5 +460,6 @@ a:hover { text-decoration: underline; }
 }
 
 .footer-icon{
-  width:10%;
+  width:15%;
+  max-width: auto;
 }
